@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(220, 218, 218, 0.56);
+    background-color: #F0F0F0;
 }
 
 h1 {
@@ -36,21 +36,50 @@ h1 {
     font-family: 'Anton', sans-serif;
 }
 
-#redbutton {
+#redbutton, .redsmallbutton {
     background-color: #E6563B;
 }
 
-#orangebutton {
+#orangebutton, .orangesmallbutton {
     background-color: #EB9D3A;
 }
-#greenbutton {
+#greenbutton, .greensmallbutton {
     background-color: #7CB06C;
 }
 
-#bluebutton {
+#bluebutton, .bluesmallbutton {
     background-color: #00ABA9;
 }
 
 hr {
     border: 1px solid #bbb;
+}
+
+/*#apple {*/
+/*    height: 250px;*/
+/*    width: 200px;*/
+/*}*/
+
+.thepictures {
+    border: 5px solid #e6e6e6;
+    height: 80%;
+}
+
+.featuredprojects {
+    font-size: 12px;
+    font-family: 'Abel', sans-serif !important;
+}
+.smallbutton {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 9px;
+    font-family: 'Anton', sans-serif;
+    margin: 0 3px;
+    /*padding: 5px;*/
+}
+
+.selectedwork {
+    font-family: 'Abel', sans-serif !important;
+    margin: 20px 0;
 }
