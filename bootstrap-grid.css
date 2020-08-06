@@ -28,6 +28,19 @@ h1 {
     text-align: center;
 }
 
+/*.visual-header, .visual-header-2 {*/
+/*    font-family: 'Anton', sans-serif;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.visual-header {*/
+/*    font-size: 64px;*/
+/*}*/
+
+/*.visual-header-2 {*/
+/*    font-size: 40px;*/
+/*}*/
+
 .bigbutton {
     width: 105px;
     height: 105px;
@@ -61,7 +74,7 @@ hr {
     height: 80%;
 }
 
-.featuredprojects, .tweet-text{
+.featuredprojects, .tweet-text {
     font-size: 15px;
     font-family: 'Abel', sans-serif !important;
 }
