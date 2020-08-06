@@ -16,24 +16,24 @@ h1 {
     height: 105px !important;
 }
 
-.visual-header, .visual-header-2 {
+h2, h3 {
     font-family: 'Anton', sans-serif;
 }
 
-.visual-header {
-    font-size: 64px;
+h2 {
+    font-size: 54px;
 }
 
-.visual-header-2 {
-    font-size: 40px;
+h3 {
+    font-size: 30px;
 }
 
 .bigbutton {
-    width: 105px;
-    height: 105px;
-    border: 5px solid white;
+    width: 135px;
+    height: 135px;
+    border: 8px solid white;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Anton', sans-serif;
 }
 
@@ -102,7 +102,8 @@ hr {
 }
 
 a:hover {
-    color: blue !important;
+    color: #6f6fea !important;
+    text-decoration: none;
 }
 
 .bigbutton:hover, .smallbutton:hover {
