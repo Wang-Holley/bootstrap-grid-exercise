@@ -104,3 +104,9 @@ hr {
 a:hover {
     color: blue !important;
 }
+
+.bigbutton:hover, .smallbutton:hover {
+    box-shadow: 0 0 10px #000;
+    -moz-box-shadow: 0 0 10px #000;
+    -webkit-box-shadow: 0 0 10px #000;
+}
