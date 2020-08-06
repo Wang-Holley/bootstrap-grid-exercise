@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-family: 'Abel', sans-serif !important;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #navlinks {
@@ -16,8 +16,8 @@ h1 {
 }
 
 #logo {
-    width: 150px !important;
-    height: 150px !important;
+    width: 105px !important;
+    height: 105px !important;
 }
 
 /*#small-nav {*/
@@ -28,7 +28,6 @@ h1 {
     width: 100%;
     text-align: center;
 }
-
 
 .visual-header {
     font-family: 'Anton', sans-serif;

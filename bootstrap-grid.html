@@ -16,12 +16,12 @@
 </head>
 <body>
 <!--start of navbar-->
-<div class="container-fluid bg-white mt-5 p-5 position-absolute" id="nav-bar"></div>
+<div class="container-fluid bg-white mt-5 p-4 position-absolute" id="nav-bar"></div>
     <div class="container-fluid m-0 p-0">
-        <div class="row align-items-center col-12">
+        <div class="row align-items-center col-12 p-0 m-0">
             <!--EXTRA SMALL NAV-->
             <div class="mt-4 d-block d-sm-none col-12 d-flex justify-content-center pl-4">
-                <img src="Img/logo.png" id="logo" alt="logo-picture">
+                <img src="Img/logo.png" id="logo" alt="logo-picture" class="w-100">
             </div>
             <div class="mt-1 d-block d-sm-none col-12 d-flex justify-content-center pl-4">
                 <h1>codeup design</h1>
@@ -36,22 +36,26 @@
             </div>
             <!--END OF EXTRA SMALL NAV-->
             <!--START OF SMALL NAV-->
-            <div class="d-none d-sm-block d-md-none" id="small-nav">
-            <div class="mt-4 d-none d-sm-block d-md-none col-12 d-flex justify-content-center pl-4">
-                <img src="Img/logo.png" id="logo" alt="logo-picture" class="logo-sm-nav">
-            </div>
-            <div class="mt-1 d-none d-sm-block d-md-none col-12 d-flex justify-content-center pl-4">
-                <h1>codeup design</h1>
-            </div>
-            <div class="d-none d-sm-block d-md-none float-left" id="navlinks">
-                <ul class="d-flex flex-row list-unstyled justify-content-center">
-                    <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">SERVICES</a></li>
-                    <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">WORK</a></li>
-                    <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">BLOG</a></li>
-                    <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">CONTACT</a></li>
-                </ul>
-            </div>
-            </div>
+
+                <div class="col-sm-5 d-none d-sm-block d-md-none mt-4">
+                    <ul class="d-flex flex-row list-unstyled justify-content-center">
+                        <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">SERVICES</a></li>
+                        <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">WORK</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 d-none d-sm-block d-md-none mt-4">
+                    <img src="Img/logo.png" id="logo" alt="logo-picture" class="logo-sm-nav">
+                </div>
+                <div class="col-sm-5 d-none d-sm-block d-md-none mt-4">
+                    <ul class="d-flex flex-row list-unstyled justify-content-center">
+                        <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">BLOG</a></li>
+                        <li class="nav-item mx-3 text-dark"><a href="#" class="text-reset">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="d-none d-sm-block d-md-none col-sm-12 text-center">
+                    <h1>codeup design</h1>
+                </div>
+
             <!--END OF SMALL NAV-->
             <!--START OF MD ^ NAV-->
             <div class="d-none d-md-block justify-content-center mt-4">
@@ -126,11 +130,12 @@
                 <div class="bigbutton text-white d-flex justify-content-center align-items-center" id="bluebutton"><a href="#" class="text-reset text-decoration-none">HOST</a></div>
             </div>
         </div>
-</div>
+    </div>
+
 <!--end of next section with headers-->
     <hr class="d-none d-sm-block">
 <!-- start of selected work -->
-    <div class="container">
+
         <div class="row ">
             <div class="col-12 col-md-8">
                 <p class="d-flex justify-content-center justify-content-md-start selectedwork">SELECTED WORK</p>
@@ -202,7 +207,7 @@
             </section>
             <!--End of Last right side. hidden on small.-->
         </div>
-    </div>
+</div>
 <!-- end of seleted work -->
 
 
