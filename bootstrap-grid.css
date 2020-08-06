@@ -16,30 +16,17 @@ h1 {
     height: 105px !important;
 }
 
-.visual-header {
+.visual-header, .visual-header-2 {
     font-family: 'Anton', sans-serif;
+}
+
+.visual-header {
     font-size: 64px;
-    text-align: center;
 }
 
 .visual-header-2 {
-    font-family: 'Anton', sans-serif;
     font-size: 40px;
-    text-align: center;
 }
-
-/*.visual-header, .visual-header-2 {*/
-/*    font-family: 'Anton', sans-serif;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.visual-header {*/
-/*    font-size: 64px;*/
-/*}*/
-
-/*.visual-header-2 {*/
-/*    font-size: 40px;*/
-/*}*/
 
 .bigbutton {
     width: 105px;
